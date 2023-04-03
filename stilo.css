@@ -1,20 +1,14 @@
 html{
-    background-color: rgb(195, 193, 190);
-    font-family: Arial, Helvetica, sans-serif;    
-    
-
-    
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;     
 }
 
-body{
-    text-align: center;
-    
-    
-}
+
 
 h1{
     text-align: center;
     padding-top: 225px;
+    
 }
 
 h2{
@@ -23,24 +17,63 @@ h2{
 .corpo{
     width: 400px;
     box-shadow: 1px 1px 5px 2px;
-    text-align: left;
+    margin-left: 20%;
+    display: inline-block;
+    
 }
-footer{
+#rodape{
     text-align: center;
 }
 
-p{
+.main{
     font-size: 17px;
     text-align: justify;
     margin-left: 20%;
     margin-right: 20%;
-    line-height: 40px;
-    text-align: center;
+    line-height: 35px;
+    display:inline-block;
+    
 }
 
 .logo{
     position: relative;
     width: 300px;
     float: left;
-   margin-left: 20%;
+    margin-left: 20%;
+}
+
+
+#cformulario{
+    width:59%;
+    
+    margin-left: 20%;
+    line-height: 15px;
+}
+
+
+#entrada:hover{
+   border-color: rgb(84, 203, 236);
+}
+
+#entrada:focus{
+    border-color: rgb(84, 203, 236);
+}
+
+#entrada{
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    border: 3px solid rgb(179, 178, 178);
+    
+    
+}
+
+#sexo{
+    display: block;
+    
+}
+
+#mensagem{
+    width: 410px;
 }

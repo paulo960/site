@@ -15,40 +15,41 @@
     <h1>Aulas de Tecnologia</h1>
     <hr>
     <h2>HTML</h2>
-    <img class="corpo" src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg" alt="">
-    <h3>HTML: Linguagem de Marcação de Hipertexto</h3>
-    <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a
-        estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a
-        aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web Tutoriais para
-        iniciantes
-        Nossa Área de Aprendizado de HTML apresenta vários módulos que ensinam HTML desde o início — sem necessidade de
-        conhecimento prévio.
+           <img class="corpo" src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg" alt="">
+            <h2>HTML: Linguagem de Marcação de Hipertexto</h2>
+            <p class="main">HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a
+                estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a
+                aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web Tutoriais para
+                iniciantes
+                Nossa Área de Aprendizado de HTML apresenta vários módulos que ensinam HTML desde o início — sem necessidade de
+                conhecimento prévio.
 
-        Introdução ao HTML
-        Este módulo fornece uma base de conhecimento, permitindo que você acostume-se com os conceitos e sintaxes
-        importantes, tais como aplicar HTML para texto, como criar hyperlinks e como usar HTML para estruturar uma
-        página web.
+                Introdução ao HTML
+                Este módulo fornece uma base de conhecimento, permitindo que você acostume-se com os conceitos e sintaxes
+                importantes, tais como aplicar HTML para texto, como criar hyperlinks e como usar HTML para estruturar uma
+                página web.
 
-        Multimídia e como incorporá-la
-        Este módulo explora como usar HTML para incluir multimídia em sua página web, incluindo as diferentes maneiras
-        para incluir imagens, e como incorporar vídeos, áudios e até como colocar uma página inteira em outras páginas
-        web.
+                Multimídia e como incorporá-la
+                Este módulo explora como usar HTML para incluir multimídia em sua página web, incluindo as diferentes maneiras
+                para incluir imagens, e como incorporar vídeos, áudios e até como colocar uma página inteira em outras páginas
+                web.
 
-        Tabelas HTML
-        Representar dados tabulares em uma página web de maneira entendível e acessível pode ser um desafio. Este módulo
-        cobre marcação tabular básica, junto com outras funcionalidades mais complexas como legendas e sumários.
+                Tabelas HTML
+                Representar dados tabulares em uma página web de maneira entendível e acessível pode ser um desafio. Este módulo
+                cobre marcação tabular básica, junto com outras funcionalidades mais complexas como legendas e sumários.
 
-        Formulários HTML (en-US)
-        Formulários são partes muito importantes na Web — proporcionam muitas das funcionalidades que você precisa para
-        interagir em páginas web. Exemplos disso são registrar-se e conectar-se, enviar comentários, comprar produtos e
-        muito mais. Este módulo lhe permite começar a criar as partes visíveis dos formulários, ou seja, as partes que
-        os usuários interagem.</p>
+                Formulários HTML (en-US)
+                Formulários são partes muito importantes na Web — proporcionam muitas das funcionalidades que você precisa para
+                interagir em páginas web. Exemplos disso são registrar-se e conectar-se, enviar comentários, comprar produtos e
+                muito mais. Este módulo lhe permite começar a criar as partes visíveis dos formulários, ou seja, as partes que
+                os usuários interagem.</p>
+           
 
     <hr>
     <h2 div="">CSS</h2>
     <img class="corpo" src="https://gbcdn.mrgcdn.ru/uploads/geekbrains/public/ckeditor_assets/pictures/8975/retina-5df8bc110901350173f8be719ce2ea1d.png"
         alt="">
-    <p>CSS tem uma sintaxe simples, e utiliza uma série de palavras em inglês para especificar os nomes de diferentes
+    <p class="main">CSS tem uma sintaxe simples, e utiliza uma série de palavras em inglês para especificar os nomes de diferentes
         propriedade de estilo de uma página.
 
         Uma instrução CSS consiste em um seletor e um bloco de declaração. Cada declaração contém uma propriedade e um
@@ -77,7 +78,7 @@
     <hr>
     <h2>JavaScript</h2>
     <img class="corpo" src="https://www.segredosdatecnologia.com/wp-content/uploads/2019/03/logo-javascript.png" alt="">
-    <p>JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada estruturada, de script
+    <p class="main">JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada estruturada, de script
         em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e
         funcional).[2][3] Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide
         Web. JavaScript permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A
@@ -110,10 +111,39 @@
         linguagens de programação como Self e Scheme.[7]
 
         É baseada em ECMAScript, padronizada pela Ecma international nas especificações ECMA-262[8] e ISO/IEC 16262.</p>
-</body>
+
+         <fieldset id="cformulario">
+            <legend><h2 id="formulario">Formulario</h2></legend>
+            
+                <div>
+                    <label for="nome"></label>
+                    <input type="text" id="entrada" placeholder="Nome" >
+                </div>
+
+                <div>
+                    <label for="telefone"></label>
+                    <input type="text" id="entrada" placeholder="Telefone">
+                </div>
+
+                <div>
+                    <label for="email"></label>
+                    <input type="text" id="entrada" placeholder="Email">
+                </div>
+                <div id="sexo">
+                    <p>Sexo:</p>
+                    <p><input type="radio" name="sexo" id="genero" value="Masculino">Masculino</p> 
+                    <p><input type="radio" name="sexo" id="genero" value="Feminino">Feminino</p>
+                </div>
+
+                <div>
+                    
+                    <textarea style="resize: none;" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                </div>
+        </fieldset>
+    </body>
 <footer>
     <hr>
-    <p>Todos os direitos reservados..</p>
+    <p id="rodape">Todos os direitos reservados &copy</p>
 
 </footer>
 
