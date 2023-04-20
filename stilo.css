@@ -1,9 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 html{
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;     
 }
 
+#cabeca{
+    background-color: black;
+    border-bottom: 1px solid rgb(220, 217, 217);
+    height: 170px;
+    
+    
+}
+.logo{
+    
+    width: 150px;
+    float: left;
+    margin-left: 20%;
+    
+}
 
+.menu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(165, 167, 167);
+    
+}
+
+
+.menu{
+    
+    display: inline-block;
+    list-style: none;
+    float: left;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    display: flex; 
+       
+    
+}
+
+
+
+
+
+.menu li{
+    position: relative;
+    float: left;
+    padding: 10px;
+    
+    
+}
+
+.menu li:hover{
+    
+    
+}
+
+.menu li a:hover{
+    color:  #f1cd30;
+    border-bottom: 10px solid  #f1cd30;
+    transition: 0.5s;
+    
+    
+    
+}
+
+#agendamento{
+    background-color:  #f1cd30;
+    padding: 11px 20px;
+    float: left;
+    position: relative;
+    display: block;
+    margin-top: 55px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+#agendamento:hover{
+    background-color: #c2a008;
+    transition: 0.5s;
+}
+
+#banner{
+    background-color: #c2a008;
+    height: 600px;
+    margin-top: -1px;
+    background-image: url(..//site/img/banner.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+#banner image{
+    width: 100%;
+}
 
 h1{
     text-align: center;
@@ -21,6 +122,8 @@ h2{
     display: inline-block;
     
 }
+
+
 #rodape{
     text-align: center;
 }
@@ -35,19 +138,35 @@ h2{
     
 }
 
-.logo{
-    position: relative;
-    width: 300px;
-    float: left;
-    margin-left: 20%;
-}
+
 
 
 #cformulario{
     width:59%;
-    
+    border: 1px solid black;
     margin-left: 20%;
     line-height: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+input{
+    
+    padding: 6px;
+}
+
+
+
+
+#entrada{
+    
+    border-style:groove;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    outline: 0;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 
@@ -57,23 +176,43 @@ h2{
 
 #entrada:focus{
     border-color: rgb(84, 203, 236);
+    outline: 0;
 }
 
-#entrada{
-    border-radius: 10px;
-    width: 400px;
-    height: 30px;
-    margin: 10px;
-    border: 3px solid rgb(179, 178, 178);
-    
-    
-}
 
 #sexo{
-    display: block;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 13px;
+    color: #757587;
+    
+    
+}
+
+radio
+
+#feminino, #masculino{
+    margin-top: 10px;
     
 }
 
 #mensagem{
-    width: 410px;
+    border: 1px solid rgb(0, 0, 0);
+    border-style:groove;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    padding: 6px;
+    
+}
+
+#mensagem:hover{
+    border-color: rgb(84, 203, 236);
+}
+
+#mensagem:focus{
+    border-color: rgb(84, 203, 236);
+    outline: 0;
 }
